@@ -1,0 +1,1 @@
+This example demonstrates the issue of integer division truncation in C.  When dividing two integers, C performs integer division, discarding any fractional part of the result. This can lead to unexpected results if floating-point precision is needed. The solution shows how to resolve this by casting at least one operand to a floating-point type before the division.
